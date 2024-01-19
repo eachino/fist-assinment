@@ -1,14 +1,15 @@
 body{
     font-family: 'Merriweather', serif;
    width: 1120px;
+   margin: auto;
 }
 
 .banner{
 border-radius: 16px;
 
-background-image: url('../resources/Banner Image.png');
+background-image: url('./banner.png');
 
-width:1320px;
+width:1170px;
 height: 600px;
 flex-shrink: 0;
 }
@@ -80,7 +81,7 @@ line-height: 30px;
 .banner-1{
     display: flex;
     margin-top: 120px;
-    background-image: url('../resources/Vectorrr.png');
+    background-image: url('./Vectorrr.png');
     width: 1320px;
 height: 600px;
 flex-shrink: 0;
